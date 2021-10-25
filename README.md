@@ -1,13 +1,17 @@
 # RBasics
-Introduction to R programming.
+## Introduction to **R programming**.
+_I'll be sharing everything that I learn about R programming here. _
 
-## Topics covered:
-* Importing dataset.
-* Printing Column headings.
-* Deleting Column headings.
-* Creating a new table by filtering required data set.
+---
 
-<img width="600" src="https://user-images.githubusercontent.com/74871887/138751649-96663457-c135-49f2-80a6-09a4e9be3034.png">
+###  Topics covered: 
+- Importing dataset 
+- Viewing a dataset
+- Printing Column headings
+- Renaming Column headings
+- Creating a new table by filtering data set
+- Sorting a dataset
+- Creating a subset
 
-
+---
 
