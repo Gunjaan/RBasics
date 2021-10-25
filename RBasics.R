@@ -5,13 +5,19 @@ data<- read.csv("/Users/gunjan/Documents/socialAnxiety.csv")
 head(data)
 # printing column headings
 colnames(data)
-# Changing column headings
-colnames(data)[6]<- "Hours spent on social media"
-colnames(data)[7]<- "Being the center of attention"
-colnames(data)[8]<- "Working while being observed"
-colnames(data)[9]<- "Talking to a stranger"
-colnames(data)[12]<- "Feeling anxious before social situations"
 # Deleting columns that we don't need
-data <- data[-c(1, 10, 11)]
+data <- data[-c(1, 10, 11, 12)]
+head(data)
+# Changing column headings
+colnames(data)[5]<- "Hours spent on social media"
+colnames(data)[6]<- "Being the center of attention"
+colnames(data)[7]<- "Working while being observed"
+colnames(data)[8]<- "Talking to a stranger"
+colnames(data)[9]<- "Feeling anxious in public"
 colnames(data)
 head(data)
+femaleData<- data[data$Gender == "Female",]
+maleData<- data[data$Gender == "Male",]
+View(data)
+View(femaleData)
+View(maleData)
