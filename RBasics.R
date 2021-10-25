@@ -37,7 +37,10 @@ below25_a <- data[data$Age < 25, c(1,3,4)] #(contains only column no. 1,3,4)
 # people below 25y/o, without the specified columns in the table.
 below25_b <- data[data$Age < 25, -c(2,4:7)] #(deletes column no. 2,4,5,6,7)
 
+# Sorting a dataframe:
+sorted1 <- data[order(data$Age),]  # Ascending order (Age)
+sorted2 <- data[order(data$Age, decreasing = TRUE),]  #Descending order (Age)
+
 #To create a subset:
 subData1 <- subset(data, Hours.spent.on.social.media == "Less than 2 hours per day")
 subData2 <- subset(data, Gender == "Female" & Hours.spent.on.social.media == "Less than 2 hours per day")
-
