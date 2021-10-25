@@ -1,6 +1,6 @@
 # RBasics
 ## Introduction to **R programming**.
-_I'll be sharing everything that I learn about R programming here. _
+_I'll be sharing everything that I learn about R programming here_
 
 ---
 
