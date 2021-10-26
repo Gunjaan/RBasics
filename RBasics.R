@@ -6,6 +6,10 @@ data <- read.csv("/Users/gunjan/Documents/socialAnxiety.csv")
 # printing top 6 rows of our dataset
 head(data)
 
+#printing the number of rows and columns
+print(ncol(data))
+print(nrow(data))
+
 # printing column headings
 colnames(data)
 
@@ -44,3 +48,26 @@ sorted2 <- data[order(data$Age, decreasing = TRUE),]  #Descending order (Age)
 #To create a subset:
 subData1 <- subset(data, Hours.spent.on.social.media == "Less than 2 hours per day")
 subData2 <- subset(data, Gender == "Female" & Hours.spent.on.social.media == "Less than 2 hours per day")
+
+# R STATISTICS
+# Finding maximum and minumum
+min(data$Being.the.center.of.attention)
+max(data$Being.the.center.of.attention)
+min(data$Age)
+max(data$Age)
+
+# To find the Mean, Mode, Standard deviation, and Variance
+mean(data$Talking.to.a.stranger) # Mean
+median(data$Talking.to.a.stranger) # Median
+sd(data$Talking.to.a.stranger)  #Standard deviation
+var(data$Talking.to.a.stranger) # Variance
+mad(data$Talking.to.a.stranger) # mean standard deviation
+
+# Finding the range
+range(data$Age)
+range(data$Working.while.being.observed)
+
+#quantile function tells you how much of your data lies below a certain value.
+quantile(data$Being.the.center.of.attention)
+quantile(data$Working.while.being.observed)
+quantile(data$Talking.to.a.stranger)
