@@ -36,5 +36,8 @@ The dataset (csv format) that I've used for this repository has been added with 
 
 ---
 
+Preview:
+
 <img width="600" src="https://user-images.githubusercontent.com/74871887/139069357-d954c86c-055f-4971-8569-5f3ae3f5988b.png">
+<img width="600" src="https://user-images.githubusercontent.com/74871887/139070113-710bd779-d445-40fe-a560-d14a1ba5eb4f.png">
 
