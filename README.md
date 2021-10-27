@@ -20,7 +20,7 @@ The dataset (csv format) that I've used for this repository has been added with 
 1. Importing dataset 
 2. Viewing a dataset
 3. Printing Column headings
-4. Printing number or rows or columns
+4. Printing number of rows or columns
 5. Renaming Column headings
 6. Creating a new table by filtering data set
 7. Sorting a dataset
