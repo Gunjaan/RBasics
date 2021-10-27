@@ -20,10 +20,21 @@ The dataset (csv format) that I've used for this repository has been added with 
 1. Importing dataset 
 2. Viewing a dataset
 3. Printing Column headings
-4. Renaming Column headings
-5. Creating a new table by filtering data set
-6. Sorting a dataset
-7. Creating a subset
+4. Printing number or rows or columns
+5. Renaming Column headings
+6. Creating a new table by filtering data set
+7. Sorting a dataset
+8. Creating a subset
+9. Statistical analysis
+   - Finding maximum and minimun
+   - Mean 
+   - Mode
+   - Standard deviation 
+   - Variance
+   - Range
+   - Quantile 
 
 ---
+
+<img width="600" src="https://user-images.githubusercontent.com/74871887/139069357-d954c86c-055f-4971-8569-5f3ae3f5988b.png">
 
